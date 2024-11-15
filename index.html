@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form action="index.html" method="post">
+    <label for="textinput">Text</label>
+    <input type="text" name="text" id="textinput">
+    <br>
+    <label>neco</label>
+    <input type="number" value="1"
+           readonly placeholder="22"
+           min="0" max="100" step="3">
+    <br>
+    <input type="submit">
+    <button>ahoj</button>
+    <br>
+    <label for="checkbox">nejsem robot</label>
+    <input type="checkbox" id="checkbox">
+    <br>
+    <label for="radio2">Jsi zena?</label>
+    <input type="radio" value="zena" name="volba" id="radio2">
+    <br>
+    <label for="radio1">Jsi muz?</label>
+    <input type="radio" value="muz" name="volba" id="radio1">
+    <br>
+    <label for="range">jak moc se mas rad?</label>
+    <input type="range" id="range">
+    <br>
+    <label for="tel">vypln telefonni cislo</label>
+    <input type="tel" id="tel">
+    <br>
+    <label for="color">Nejoblibenejsi barva?</label>
+    <input type="color" id="color">
+    <br>
+    <label for="txtarea">Tvuj nazor</label>
+    <textarea id="txtarea" name="txtarea">
+Test
+    </textarea>
+    <br>
+    <select name="select" id="select">
+        <option>Volba 1</option>
+        <option>Volba 2</option>
+        <option>Volba 3</option>
+        <option>Volba 4</option>
+        <optgroup label="zvire">
+            <option>Doggo</option>
+            <option>Kittty</option>
+        </optgroup>
+
+        <label for="email">Tvuj mail</label>
+        <input type="email" name="email" id="email" maxlength="10">
+</form>
+</body>
+</html>
